@@ -1,95 +1,106 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+import {
+  Button,
+  Container,
+  Paper,
+  Typography,
+  Link
+} from "@mui/material";
 
 export default function Home() {
   return (
-    <div className={styles.page}>
-      <main className={styles.main}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol>
-          <li>
-            Get started by editing <code>app/page.tsx</code>.
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
+    <Container>
+      <Paper elevation={3} sx={{ p: 5 }}>
+        <Typography variant="h2">
+          制作物紹介
+        </Typography>
+      </Paper>
+      <Paper elevation={3} sx={{ p: 5, mt: 2 }}>
+        <Typography variant="h3">
+          FEEDO Front
+        </Typography>
+        <br />
+        <Typography variant="body1">
+          今回提案するアプリのデモバージョンのフロント側
+        </Typography>
+        <br />
+        <Link href="https://github.com/cube5963/feedo_front">
+          <Button variant="contained" color="primary">
+            リポジトリを見る
+          </Button>
+        </Link>
+      </Paper>
+      <Paper elevation={3} sx={{ p: 5, mt: 2 }}>
+        <Typography variant="h3">
+          FEEDO Back
+        </Typography>
+        <br />
+        <Typography variant="body1">
+          今回提案するアプリのデモバージョンのバック側
+        </Typography>
+        <br />
+        <Link href="https://github.com/cube5963/feedo_back">
+          <Button variant="contained" color="primary">
+            リポジトリを見る
+          </Button>
+        </Link>
+      </Paper>
+      <Paper elevation={3} sx={{ p: 5 }}>
+        <Typography variant="h2">
+          制作物紹介
+        </Typography>
+      </Paper>
+      <Paper elevation={3} sx={{ p: 5, mt: 2 }}>
+        <Typography variant="h3">
+          FEEDO Old
+        </Typography>
+        <br />
+        <Typography variant="body1">
+          StartUpWeekend静岡7thで制作したサイト。リアルタイムで回答を受け取れるアンケートアプリというコンセプトのもと作成しました。静岡市長奨励賞を獲得。
+        </Typography>
+        <br />
+        <Link href="https://github.com/cube5963/feedo_old">
+          <Button variant="contained" color="primary">
+            リポジトリを見る
+          </Button>
+        </Link>
+      </Paper>
+      <Paper elevation={3} sx={{ p: 5, mt: 2 }}>
+        <Typography variant="h3">
+          gaga friends
+        </Typography>
+        <br />
+        <Typography variant="body1">
+          StartUpWeekend静岡8thで制作したサイト。共通の趣味を持つ人同士が集まれるコミュニティというコンセプトで作成しました。
+        </Typography>
+        <br />
+        <Link href="https://github.com/Raito5963/SW8th">
+          <Button variant="contained" color="primary">
+            リポジトリを見る
+          </Button>
+        </Link>
+        <span> </span>
+        <Link href="https://sw-8th.vercel.app/">
+          <Button variant="contained" color="primary">
+            gaga friendsを見る
+          </Button>
+        </Link>
+      </Paper>
+      <Paper elevation={3} sx={{ p: 5, mt: 2 }}>
+        <Typography variant="h3">
+          修学旅行しおり
+        </Typography>
+        <br />
+        <Typography variant="body1">
+          自分たちが通っている高校の修学旅行で使用した、自分たちのクラスのためのしおり。
+        </Typography>
+        <br />
+        <Link href="https://github.com/cube5963/school_trip_public">
+          <Button variant="contained" color="primary">
+            リポジトリを見る
+          </Button>
+        </Link>
+      </Paper>
 
-        <div className={styles.ctas}>
-          <a
-            className={styles.primary}
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className={styles.logo}
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-            className={styles.secondary}
-          >
-            Read our docs
-          </a>
-        </div>
-      </main>
-      <footer className={styles.footer}>
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
+    </Container>
   );
 }
