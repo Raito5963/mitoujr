@@ -44,11 +44,6 @@ export default function Home() {
           </Button>
         </Link>
       </Paper>
-      <Paper elevation={3} sx={{ p: 5 }}>
-        <Typography variant="h2">
-          制作物紹介
-        </Typography>
-      </Paper>
       <Paper elevation={3} sx={{ p: 5, mt: 2 }}>
         <Typography variant="h3">
           FEEDO Old
