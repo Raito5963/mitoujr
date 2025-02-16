@@ -23,7 +23,7 @@ export default function Home() {
           今回提案するアプリのデモバージョンのフロント側
         </Typography>
         <br />
-        <Link href="https://github.com/cube5963/feedo_front">
+        <Link href="https://github.com/cube5963/feedo_front" target="_blank" rel="noopener noreferrer">
           <Button variant="contained" color="primary">
             リポジトリを見る
           </Button>
@@ -38,7 +38,7 @@ export default function Home() {
           今回提案するアプリのデモバージョンのバック側
         </Typography>
         <br />
-        <Link href="https://github.com/cube5963/feedo_back">
+        <Link href="https://github.com/cube5963/feedo_back"  target="_blank" rel="noopener noreferrer">
           <Button variant="contained" color="primary">
             リポジトリを見る
           </Button>
@@ -53,7 +53,7 @@ export default function Home() {
           StartUpWeekend静岡7thで制作したサイト。リアルタイムで回答を受け取れるアンケートアプリというコンセプトのもと作成しました。静岡市長奨励賞を獲得。
         </Typography>
         <br />
-        <Link href="https://github.com/cube5963/feedo_old">
+        <Link href="https://github.com/cube5963/feedo_old"  target="_blank" rel="noopener noreferrer">
           <Button variant="contained" color="primary">
             リポジトリを見る
           </Button>
@@ -68,13 +68,13 @@ export default function Home() {
           StartUpWeekend静岡8thで制作したサイト。共通の趣味を持つ人同士が集まれるコミュニティというコンセプトで作成しました。
         </Typography>
         <br />
-        <Link href="https://github.com/Raito5963/SW8th">
+        <Link href="https://github.com/Raito5963/SW8th"  target="_blank" rel="noopener noreferrer">
           <Button variant="contained" color="primary">
             リポジトリを見る
           </Button>
         </Link>
         <span> </span>
-        <Link href="https://sw-8th.vercel.app/">
+        <Link href="https://sw-8th.vercel.app/"  target="_blank" rel="noopener noreferrer">
           <Button variant="contained" color="primary">
             gaga friendsを見る
           </Button>
