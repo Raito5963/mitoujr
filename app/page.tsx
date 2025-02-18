@@ -30,13 +30,13 @@ export default function Home() {
         </Typography>
         <br />
         <Link href="https://e55c631a-45d9-4671-7295-38c7f9b35eca.mtayo.net/management" target="_blank" rel="noopener noreferrer">
-          <Button variant="contained" color="primary">
+          <Button variant="contained" color="success">
             FEEDO
           </Button>
         </Link>
         <span> </span>
         <Link href="https://github.com/cube5963/feedo_front" target="_blank" rel="noopener noreferrer">
-          <Button variant="contained" color="primary">
+          <Button variant="contained" color="secondary">
             リポジトリを見る
           </Button>
         </Link>
@@ -51,7 +51,7 @@ export default function Home() {
         </Typography>
         <br />
         <Link href="https://github.com/cube5963/feedo_back" target="_blank" rel="noopener noreferrer">
-          <Button variant="contained" color="primary">
+          <Button variant="contained" color="secondary">
             リポジトリを見る
           </Button>
         </Link>
@@ -66,13 +66,13 @@ export default function Home() {
         </Typography>
         <br />
         <Link href="https://ca55bad4-a542-2735-89ab-670a991e0c24.mtayo.net/" target="_blank" rel="noopener noreferrer">
-          <Button variant="contained" color="primary">
+          <Button variant="contained" color="success">
             FEEDO Old
           </Button>
         </Link>
         <span> </span>
         <Link href="https://github.com/cube5963/feedo_old" target="_blank" rel="noopener noreferrer">
-          <Button variant="contained" color="primary">
+          <Button variant="contained" color="secondary">
             リポジトリを見る
           </Button>
         </Link>
@@ -86,15 +86,15 @@ export default function Home() {
           StartUpWeekend静岡8thで制作したサイト。共通の趣味を持つ人同士が集まれるコミュニティというコンセプトで作成しました。
         </Typography>
         <br />
-        <Link href="https://github.com/Raito5963/SW8th" target="_blank" rel="noopener noreferrer">
-          <Button variant="contained" color="primary">
-            リポジトリを見る
+        <Link href="https://sw-8th.vercel.app/" target="_blank" rel="noopener noreferrer">
+          <Button variant="contained" color="success">
+            gaga friendsを見る
           </Button>
         </Link>
         <span> </span>
-        <Link href="https://sw-8th.vercel.app/" target="_blank" rel="noopener noreferrer">
-          <Button variant="contained" color="primary">
-            gaga friendsを見る
+        <Link href="https://github.com/Raito5963/SW8th" target="_blank" rel="noopener noreferrer">
+          <Button variant="contained" color="secondary">
+            リポジトリを見る
           </Button>
         </Link>
       </Paper>
@@ -108,7 +108,7 @@ export default function Home() {
         </Typography>
         <br />
         <Link href="https://github.com/cube5963/school_trip_public">
-          <Button variant="contained" color="primary">
+          <Button variant="contained" color="secondary">
             リポジトリを見る
           </Button>
         </Link>
