@@ -42,7 +42,7 @@ const projects = [
     title: "NFC名刺",
     description: "望月がNFCを用いた名刺を作成するために作ったプロフィールサイト。",
     links: [
-      { url: "https://https://profile.aokiju.com/", text: "サイトを見る", color: "success" as const },
+      { url: "https://profile.aokiju.com/", text: "サイトを見る", color: "success" as const },
       { url: "https://github.com/Raito5963/myhp", text: "リポジトリを見る", color: "secondary" as const },
 
     ],
