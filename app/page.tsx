@@ -38,6 +38,15 @@ const projects = [
     description: "自分たちが通っている高校の修学旅行で使用した、自分たちのクラスのためのしおり。",
     links: [{ url: "https://github.com/cube5963/school_trip_public", text: "リポジトリを見る", color: "secondary" as const }],
   },
+   {
+    title: "NFC名刺",
+    description: "望月がNFCを用いた名刺を作成するために作ったプロフィールサイト。",
+    links: [
+      { url: "https://https://profile.aokiju.com/", text: "サイトを見る", color: "success" as const },
+      { url: "https://github.com/Raito5963/myhp", text: "リポジトリを見る", color: "secondary" as const },
+
+    ],
+  },
 ];
 
 export default function Home() {
